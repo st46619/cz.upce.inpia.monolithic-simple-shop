@@ -15,4 +15,9 @@ public class OrderForm extends BaseEntity {
 
     @Enumerated(EnumType.STRING)
     private OrderState orderState;
+
+    public void setOrderState(OrderState aNew) {
+    }
+
+
 }

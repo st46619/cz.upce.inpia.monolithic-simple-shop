@@ -21,6 +21,5 @@ public class InpiaSimpleShopApplication extends WebMvcConfigurerAdapter {
                     .addResourceLocations("classpath:/thymeleaf/static/");
         }
     }
-
 }
 

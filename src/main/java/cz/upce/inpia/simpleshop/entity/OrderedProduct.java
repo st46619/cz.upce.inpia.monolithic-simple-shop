@@ -20,4 +20,19 @@ public class OrderedProduct extends BaseEntity {
     @Column
     private Integer amount;
 
+    public void setOrder(OrderForm order) {
+        this.order = order;
+    }
+
+    public OrderForm getOrder() {
+        return order;
+    }
+
+    public void setProduct(Product key) {
+
+    }
+
+    public void setAmount(Integer value) {
+
+    }
 }
